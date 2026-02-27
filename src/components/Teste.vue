@@ -1,0 +1,3 @@
+<template>
+  Meu teste 
+</template>
