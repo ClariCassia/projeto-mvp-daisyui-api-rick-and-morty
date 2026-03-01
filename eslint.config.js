@@ -9,6 +9,7 @@ export default [
   // Base (todos os arquivos)
   {
     files: ["**/*.{js,cjs,mjs,vue}"],
+    extends: ["./.eslintrc-auto-import.json"],
     ignores: ["dist/**", "node_modules/**"],
     languageOptions: {
       globals: {
