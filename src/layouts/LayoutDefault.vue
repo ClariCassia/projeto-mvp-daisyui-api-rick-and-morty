@@ -1,9 +1,8 @@
 <template>
   <div>
-      <NavBar />
-      <RouterView />   
+    <NavBar />
+    <RouterView />
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
