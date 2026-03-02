@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export async function getCharacters() {
-  const response = await axios.get("https://rickandmortyapi.com/api/episode");
+export async function getCharacters(page) {
+  const response = await axios.get(`https://rickandmortyapi.com/api/episode?page=${page}`);
 
   return response.data;
 }
