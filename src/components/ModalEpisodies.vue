@@ -13,8 +13,8 @@
             {{ data.episode }}
           </BadgeRpisodie>
         </div>
-        <AvatarCharacters v-if="data.characters" :characters="data.characters" />
-        <div class="flex items-center gap-4 mb-4">
+        <AvatarCharacters v-if="data.characters" :characters="data.characters" :quantityCharacters="10" />
+        <div class="flex justify-end gap-4 mb-4">
           <BadgeAirDate>
             {{ data.air_date }}
           </BadgeAirDate>
