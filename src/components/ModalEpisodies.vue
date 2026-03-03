@@ -19,7 +19,7 @@
             {{ data.air_date }}
           </BadgeAirDate>
         </div>
-      </div>      
+      </div>
     </div>
   </dialog>
 </template>

@@ -42,8 +42,19 @@ const charactersCount = computed(() => {
   return 0;
 })
 
-  function getAvatarUrl(url) {
-    const newUrl = url.replace('https://rickandmortyapi.com/api/character/', 'https://rickandmortyapi.com/api/character/avatar/');
-    return `${newUrl}.jpeg`;
-  };
+/**
+ * Transforma a URL de detalhe do personagem em uma URL válida para a imagem do avatar.
+ * Substitui o endpoint da API pelo endpoint de assets de imagem e adiciona a extensão .jpeg.
+ * * @function getAvatarUrl
+ * @param {string} url - A URL completa do personagem retornada pela API (ex: https://rickandmortyapi.com/api/character/1).
+ * @returns {string} A URL formatada para exibir a imagem do avatar (ex: https://rickandmortyapi.com/api/character/avatar/1.jpeg).
+ */
+function getAvatarUrl(url) {
+  if (!url) return '';
+  const newUrl = url.replace(
+    'https://rickandmortyapi.com/api/character/',
+    'https://rickandmortyapi.com/api/character/avatar/'
+  );
+  return `${newUrl}.jpeg`;
+}
 </script>
