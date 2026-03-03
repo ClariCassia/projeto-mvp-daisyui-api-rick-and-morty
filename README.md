@@ -14,7 +14,7 @@
 
 O **Rick and Morty Explorer** é um MVP (Minimum Viable Product) focado na exploração de episódios e personagens da icônica série. Desenvolvida com **Vue 3**, a aplicação consome a API oficial para oferecer uma interface dinâmica, rica em detalhes e totalmente responsiva.
 
-#### Para ver o projeto pronto [clique aqui](https://seu-link-da-vercel.vercel.app/) 🚀
+#### Para ver o projeto pronto [clique aqui](https://clari-cassia-projetcs-projeto-mvp-daisyui-api-rick-and-mo.vercel.app/) 🚀
 
 ## ⚙️ Funcionalidades
 
@@ -68,7 +68,7 @@ Durante o desenvolvimento, apliquei práticas de **Clean Code** e organização 
    ```
 
 - É possível também baixar o arquivo e descompactar localmente:
-- 📥(https://github.com/ClariCassia/todoList-vue-Eslab/archive/refs/heads/main.zip)
+- 📥(https://github.com/ClariCassia/projeto-mvp-daisyui-api-rick-and-morty/archive/refs/heads/main.zip)
 
  **2. Acesse o Diretório:**
 
