@@ -5,3 +5,8 @@ export async function getCharacters(page) {
 
   return response.data;
 }
+
+export async function getCharacterById(id) {
+  const response = await axios.get(`https://rickandmortyapi.com/api/episode/${id}`);
+  return response.data;
+}
