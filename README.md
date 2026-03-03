@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Rick and Morty Logo" width="20%" src="./public/logo-rick-morty.jpg" />
+  <img alt="Rick and Morty Logo" width="20%" src="./public/images/logo-rick-morty.jpg" />
 </div>
 
 <h1 align="center">
