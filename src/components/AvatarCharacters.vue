@@ -2,7 +2,7 @@
   <div class="avatar-group -space-x-6 p-4">
     <div v-for="character in characterFiltred" :key="character" class="avatar">
       <div class="w-12">
-        <img :src="getAvatarUrl(character)" />
+        <img :src="getAvatarUrl(character)" alt=" avatar character" />
       </div>
     </div>
 
